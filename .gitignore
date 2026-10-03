@@ -1,0 +1,14 @@
+# Never commit the ROM or build output (one ROM per repo: <FILE_NAME>.gb/.gbc)
+*.gb
+*.gbc
+*.sav
+*.o
+*.map
+*.sym
+!baserom*.sym
+build/
+__pycache__/
+*.pyc
+tools/rgbds/
+tools/mgbdis/
+.DS_Store
